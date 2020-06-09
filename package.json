@@ -1,0 +1,24 @@
+{
+  "name": "web_socket_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TangWeiXu/web_socket_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TangWeiXu/web_socket_test/issues"
+  },
+  "homepage": "https://github.com/TangWeiXu/web_socket_test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.3"
+  }
+}
