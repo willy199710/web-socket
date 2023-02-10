@@ -58,6 +58,7 @@ wss.on('connection', ws => {
             $(document).ready(function(){
                 $('#submit').click(function(e){
                     sendText($('#name').val(), $('#text').val());
+                    $('#text').val("");
                 }); 
             })
         </script>
