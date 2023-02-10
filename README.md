@@ -2,7 +2,7 @@
 
 ## GIF結果
 
-![IMAGE]()
+![IMAGE](https://github.com/willy199710/web-socket/blob/master/pic/result.gif)
 
 ## Server端
 
