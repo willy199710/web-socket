@@ -19,6 +19,7 @@
   "homepage": "https://github.com/TangWeiXu/web_socket_test#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "jquery": "^3.6.3",
     "ws": "^7.2.3"
   }
 }
