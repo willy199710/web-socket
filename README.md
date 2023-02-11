@@ -7,6 +7,8 @@
 ## Server端
 
 ```js
+//server.js
+
 //使用插件
 const express = require('express');
 const SocketServer = require('ws').Server;
@@ -47,8 +49,10 @@ wss.on('connection', ws => {
 ## Client端
 
 ### Client 前端 View
-#### index.html
-```js
+
+```html
+<!--index.html-->
+
 <html>
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -78,8 +82,10 @@ wss.on('connection', ws => {
 ```
 
 ### Client端之後端 Model
-#### index.js
+
 ```js
+//index.js
+
 //建立 WebSocket
 const ws = new WebSocket('ws://localhost:3000');
 
